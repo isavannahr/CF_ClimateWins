@@ -29,7 +29,7 @@ Used to classify good weather and bad weather by reducing distance between simil
   - F1 scores for the scaled data mirror the other classifiers.
 2. Decision Tree
   - Variates in performance between the different weather stations. 
-  - The complexity of the tree seems to indicate overfitting as well.
+  - F1 scores are perfect for train data but much lower on testing data which indicates overfitting. 
 3. ANN
    - Does not converge on the test data. 
    - Highest average F1 Score: 0.75
