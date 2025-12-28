@@ -7,7 +7,7 @@
 Methods used: 
 1. KNN
      - Non-parametric classifier that takes on supervised learning. 
-Used to classify good weather and bad weather by reducing distance between similar groups
+    - Used to classify good weather and bad weather by reducing distance between similar groups
     - Tested on both scaled and unscaled data
 2. Decision Tree
      - Classification tree used to define good and poor weather. 
@@ -20,6 +20,24 @@ Used to classify good weather and bad weather by reducing distance between simil
        - Layer 1: 100
        - Layer 2: 50 
        - Layer 3: 25
+4. Principal Component Analysis (PCA)
+   - Reduces high-dimensional climate data into key components
+   - Highlights dominant weather patterns, improves efficiency and interpretability
+5. K-Means & Hierarchical Clustering
+   - Identify natural groupings in weather behavior without labels
+6. Convolutional Neural Networks (CNNs)
+  - Uses various hidden layers to learn  patterns in the data for prediction
+  - Detecting evolving weather systems across Europe
+7. Recurrent Neural Networks (RNNs) & Long Short-Term Memory (LSTM)
+  - Model how past conditions influence future outcomes
+  - Essential for forecasting and trend detection
+8. Random Forests
+  - Provides feature importance, improving model transparency through a collection of decision trees
+9. Generative Adversarial Networks (GANs)
+  - Use two competing neural networks to generate artificial data to help train thee  model. 
+  - Use photos like the ones on the right to predict current and future weather conditions
+10. Bayesian Optimization
+  - Efficiently tunes hyperparameters across all models
 
 ### Summarized Results  
 
